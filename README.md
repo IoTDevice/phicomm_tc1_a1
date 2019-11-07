@@ -1,7 +1,7 @@
 # phicomm_tc1_a1
 斐讯TC1 A1版接入OpenIoTHub（https://github.com/OpenIoTHub）
 
-斐讯TC1 a1刷机控制请参考：[教程](https://github.com/IoTDevice/phicomm_tc1_a1/tree/master/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%96%87%E6%A1%A3)
+斐讯TC1 a1刷机控制请参考：[教程](./%E5%B7%A5%E5%85%B7%E5%92%8C%E6%96%87%E6%A1%A3)
 
 如果是斐讯DC1插排请参考：[斐讯DC1](https://github.com/IoTDevice/phicomm_dc1)
 
