@@ -1,0 +1,1 @@
+./build/TC1@MK3031@moc/Modules/mico-os/platform/MCU/MW3xx/../../Cortex-M4/crt0_GCC.o ./build/TC1@MK3031@moc/Modules/mico-os/platform/MCU/MW3xx/../../Cortex-M4/platform_core.o ./build/TC1@MK3031@moc/Modules/mico-os/platform/MCU/MW3xx/../platform_nsclock.o ./build/TC1@MK3031@moc/Modules/mico-os/platform/MCU/MW3xx/../moc_platform_common.o  
