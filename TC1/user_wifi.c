@@ -131,6 +131,21 @@ void wifi_init( void )
 //    wNetConfig.wifi_retry_interval=6000;
 //    micoWlanStart(&wNetConfig);
 
+    if ( strlen( sys_config->micoSystemConfig.ssid ) > 0 )
+    {
+        os_log("connect ssid:%s key:%s",sys_config->micoSystemConfig.ssid,sys_config->micoSystemConfig.user_key);
+        network_InitTypeDef_st wNetConfig;
+        memset( &wNetConfig, 0, sizeof(network_InitTypeDef_st) );
+        strcpy( wNetConfig.wifi_ssid, sys_config->micoSystemConfig.ssid );
+        strcpy( wNetConfig.wifi_key, sys_config->micoSystemConfig.user_key );
+        wNetConfig.wifi_mode = Station;
+        wNetConfig.dhcpMode = DHCP_Client;
+        wNetConfig.wifi_retry_interval = 6000;
+        micoWlanStart( &wNetConfig );
+        wifi_status = WIFI_STATE_CONNECTING;
+    } else
+        wifi_status = WIFI_STATE_FAIL;
+
     //wifi状态下led闪烁定时器初始化
     mico_rtos_init_timer( &wifi_led_timer, 1000, (void *) wifi_led_timer_callback, NULL );
     //easylink 完成回调
