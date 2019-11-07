@@ -1,7 +1,10 @@
 # phicomm_tc1_a1
 斐讯TC1 A1版接入OpenIoTHub（https://github.com/OpenIoTHub）
 
-[斐讯DC1](https://github.com/IoTDevice/phicomm_dc1)
+斐讯TC1 a1刷机控制请参考：[教程](https://github.com/IoTDevice/phicomm_tc1_a1/tree/master/%E5%B7%A5%E5%85%B7%E5%92%8C%E6%96%87%E6%A1%A3)
+
+如果是斐讯DC1插排请参考：[斐讯DC1](https://github.com/IoTDevice/phicomm_dc1)
+
 
 #### 适用于tc1 a1，刷机后通电（小心触电），连接类似的Easylink_###的wifi，返回手机或者pc连接后打开http://10.10.10.1 开始配网下一步然后插排就会显示结果并连接wifi，然后使用OpenIoTHub（ https://github.com/OpenIoTHub ） apk在刚刚给插排配置的同一个路由器网络里面查看控制界面
 
