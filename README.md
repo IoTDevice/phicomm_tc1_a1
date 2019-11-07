@@ -1,5 +1,5 @@
-# phicomm_tc1_a1
-斐讯TC1 A1版接入OpenIoTHub（https://github.com/OpenIoTHub）
+# phicomm_tc1_a1（免费开源固件）
+斐讯TC1 A1版接入OpenIoTHub（https://github.com/OpenIoTHub）基于[zTC1](https://github.com/a2633063/zTC1)和[tc1_mqtt](https://github.com/cnk700i/tc1_mqtt)，使用http接口进行控制
 
 斐讯TC1 a1刷机控制请参考：[教程](./%E5%B7%A5%E5%85%B7%E5%92%8C%E6%96%87%E6%A1%A3)
 
@@ -14,3 +14,8 @@
 
 ### app操作界面 
 ![image](./images/UI.jpg)
+
+## 致谢
+以下排名不分先后，为随机。
+- [a2633063](https://github.com/a2633063) 首发的tc1程序
+- [cnk700i](https://github.com/cnk700i)：  精简的项目和bug修复
