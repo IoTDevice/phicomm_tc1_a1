@@ -1,0 +1,19 @@
+MICO开发环境搭建
+MICO是庆科基于FreeRTOS开发的一套即时操作系统，适用于庆科WiFi模块EMW系列开发
+
+1】安装python，下载链接https://www.python.org/downloads/release/python-2713/，下载安装的时候添加环境变量到Path，默认安装路径需要添加两个环境变量C:\Python27；C:\Python27\Scripts
+2】安装git 安装版本为git version 2.14.3.windows.1，git下载链接https://gitforwindows.org/
+3】下载MiCoder Toolchain 下载安装链接为http://firmware.mxchip.com/MiCoder_v1.3_Win32:64.zip，下载完解压出来（不要有中文路径）
+4】配置micoder路径，在DOS中安装mico-cube
+pip install mico-cube
+安装完成后添加micoder路径
+mico config --global MICODER (micoder所在路径)/MiCoder
+5】安装micoder IDE micoder tools 
+6】安装完成后在IDE Make Target 添加编译参数 来下载编译代码到开发板 ，使用JLink 可以进行烧录
+
+ 
+
+网盘资料链接：
+
+链接：https://pan.baidu.com/s/1VoQRaeJ1H9SLbCsns2NhBg
+提取码：pzvz
